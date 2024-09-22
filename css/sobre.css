@@ -1,0 +1,110 @@
+.section .container2 {
+    display: flex;
+}
+
+.imagem img {
+    width: 400px; 
+    height: 280px; 
+  }
+
+.imagem {
+    margin: 7px 7px 7px 130px;     
+}
+
+.section{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.text{
+    width: 600px;
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+}
+
+h2{ text-transform: uppercase;
+    color: #071028;
+    font-size: 23px;
+    padding: 13px  0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ p {
+    line-height: 1.3; 
+    color: black;
+    font-size: 17px;
+}
+    
+
+body{
+    background-color:  rgb(218, 218, 216);
+}
+
+figcaption{
+    color: #071028;
+}
+
+/* card */
+
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.card{
+    height: 300px;
+    width: 210px;
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 90px 40px 40px 70px;
+    box-shadow: 4px 4px 10px 10px gray;
+}
+
+
+.card img{
+    height: 155px;
+    width: 210px;
+}
+
+
+.card h2 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 0;
+
+}
+
+
+.profissao{
+    color: gray;
+    font-size: 17px;
+    margin-top: 0;
+}
+
+.card p button {
+    border:none;
+    outline: none;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.card p button a {
+    color: white;
+}
+
+.card p button :hover{
+    opacity: 0.8;
+   
+}

@@ -1,0 +1,165 @@
+body {
+
+    background-image: url(../img/actionvance-t7EL2iG3jMc-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main{
+    margin: 10px 0px 110px 0px;
+}
+
+
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+
+}
+
+.container1 h1 {
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+
+    text-transform: uppercase;
+    margin: 35px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.856);
+}
+
+/* Inputs */
+
+input[type=text] {
+    width: 390px;
+    height: 35px;
+
+    padding-left: 6px;
+    margin: 12px;
+
+    background-color: rgba(255, 255, 255, 0.253);
+    color: white;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+}
+
+input:hover {
+    border: 2px double rgb(59, 59, 245);
+    transition: 1s;
+}
+
+
+
+input[type=email] {
+    width: 390px;
+    height: 35px;
+
+    padding-left: 6px;
+    margin: 12px;
+
+    background-color: rgba(255, 255, 255, 0.253);
+    color: white;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.856);
+}
+
+
+/* Select e options */
+
+select {
+    width: 390px;
+    height: 35px;
+    margin: 12px;
+
+    background-color: rgba(255, 255, 255, 0.253);
+    color: rgba(255, 255, 255, 0.931);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+}
+
+select option {
+    color: white;
+    background-color: rgb(28, 28, 28);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+select:hover {
+    border: 2px double rgb(59, 59, 245);
+    transition: 2s;
+}
+
+
+
+/* Text area */
+
+textarea {
+    width: 95%;
+    height: 100px;
+
+    box-sizing: border-box;
+    margin: 5px 12px;
+    padding: 6px 0px;
+
+    border-radius: 5px;
+
+    resize: none;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+
+    color: white;
+    background-color: rgba(174, 167, 167, 0.483);
+}
+
+
+textarea:hover {
+    border: 2px double rgb(59, 59, 245);
+    transition: 2s;
+}
+
+
+/* Enviar e Limpar */
+
+input[type=submit] {
+    width: 195px;
+    height: 30px;
+
+
+    text-transform: uppercase;
+    font-size: 12px;
+
+    background-color:rgba(0, 0, 0, 0.857);
+    color: white;
+}
+
+
+input[type=reset] {
+    width: 195px;
+    height: 30px;
+    margin: 10px 1px 12px 0px;
+
+    text-transform: uppercase;
+    font-size: 12px;
+
+    background-color: rgba(0, 0, 0, 0.857);
+    color: white;
+}

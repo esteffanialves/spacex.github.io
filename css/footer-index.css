@@ -1,0 +1,30 @@
+/*start footer*/
+
+.footer{  
+    height: 27px;
+    text-align: center;
+    margin: 27px 0px 0px 0;
+}
+
+.footer a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    padding: 10px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer a:hover{
+    transition: 0.2s;
+    color: rgb(157, 157, 157);
+}
+
+.footer p{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+/*end footer*/
+
+

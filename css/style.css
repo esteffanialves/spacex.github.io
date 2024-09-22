@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+img {
+    width: 200px;
+    height: 85px;
+}
+
+body{
+    background-image: url(../img/javier-miranda-AlJ9TQqeCV0-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+section{
+    padding: 54px 0;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 0 5%;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+    transition: 0.4s;
+}
+
+nav ul li a:hover{
+    transition: 0.2s;
+    border-bottom: 1px solid rgb(45, 171, 249);
+}
+
+
+
+ /* text */
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text h1{
+    font-size: 80px;
+    color: rgb(218, 216, 216);
+}
+
+.banner .banner-text p{
+    font-size:20px ;
+    color: rgb(157, 157, 157);
+    margin: 18px 0;
+}
+
+/* end text */
+
+
+
+

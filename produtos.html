@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SpaceX</title>
+    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" type="image/png" href="img/X_logo.png">
+    <script src="https://kit.fontawesome.com/2102c79234.js" crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
+    <script src="script/produto.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/spacex_logo.png" alt="logo">
+                </a>
+                <ul class="ul">
+                    <li> <a href="index.html"> Home </a> </li>
+                    <li> <a href="sobre.html"> Sobre</a> </li>
+                    <li> <a href="produtos.html"> Foguetes</a> </li>
+                    <li> <a href="contatos.html"> Contatos</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="sectab">
+            <div id="miss1" class="tabcontent">
+                <h1>Missão Starlink</h1>
+                <p> 6 de Agosto de 2023,</p>
+                <p>O Falcon 9 lançou 22 satélites Starlink para a órbita baixa
+                    da Terra a partir do Complexo de Lançamento Espacial 40 (SLC-40) na Estação da Força Espacial de
+                    Cabo Canaveral, na Flórida. Após a separação do estágio, o primeiro estágio pousou no droneship A
+                    Shortfall of Gravitas, que estava estacionado no Oceano Atlântico. Este foi o quarto lançamento e
+                    pouso deste primeiro estágio do Falcon 9, que anteriormente lançou
+                    Crew-6 SES O3b mPOWER e agora duas missões Starlink.</p>
+            </div>
+
+            <div id="miss2" class="tabcontent">
+                <h1>Hughes JUPITER 3</h1>
+                <p> 28 de Julho de 2023,</p>
+                <p>Na sexta-feira às 23h04 ET, o Falcon Heavy lançou a missão Hughes JUPITER 3 para uma
+                    órbita de transferência geossíncrona do Complexo de Lançamento 39A (LC-39A) no Kennedy Space Center,
+                    na Flórida. Este foi o terceiro lançamento e pouso desses propulsores laterais Falcon Heavy, que
+                    anteriormente
+                    suportavam USSF-44 e USSF-67.</p>
+            </div>
+
+            <div id="miss3" class="tabcontent">
+                <h1>Intelsat G-37 </h1>
+                <p> 3 de Agosto de 2023,</p>
+                <p>Na quinta-feira à 1h ET, a SpaceX lançou a missão Intelsat G-37 para uma órbita de
+                    transferência geossíncrona do Complexo
+                    de Lançamento Espacial 40 (SLC-40) na Estação da Força Espacial de Cabo Canaveral, na Flórida. Este
+                    foi o sexto voo do primeiro estágio de reforço para apoiar esta missão, que anteriormente lançou
+                    Crew-5,
+                    GPS III-6, Inmarsat I6-F2, CRS-28 e uma missão Starlink.</p>
+            </div>
+
+            <div id="miss4" class="tabcontent">
+                <h1>Transporter-8</h1>
+                <p> 12 de Junho de 2022,</p>
+                <p>Na segunda-feira às 14h35, horário do Pacífico, o Falcon 9 lançou o Transporter-8, a
+                    oitava missão
+                    dedicada do programa smallsat rideshare da SpaceX , do Space Launch Complex 4E na Vandenberg Space
+                    Force Base, na Califórnia. Este foi o nono lançamento e pouso deste booster de estágio Falcon 9, que
+                    anteriormente apoiou o
+                    lançamento de NROL-87, NROL-85, SARAh-1, SWOT e quatro missões Starlink. A bordo deste voo estavam
+                    72 espaçonaves, incluindo CubeSats, MicroSats, uma cápsula de reentrada e veículos de transferência
+                    orbital transportando espaçonaves a serem implantadas posteriormente.</p>
+            </div>
+
+            <button class="tablink" onclick="openMiss('miss1', this, '#2c4767')" id="defaultOpen">MissãoStarlink</button>
+            <button class="tablink" onclick="openMiss('miss2', this, '#2f4d7c')">Hughes JUPITER 3</button>
+            <button class="tablink" onclick="openMiss('miss3', this, '#354e76')">Intelsat G-37 </button>
+            <button class="tablink" onclick="openMiss('miss4', this, '#416787')">Transporter-8</button>
+        </section>
+
+
+        <!--start foguete com div-->
+        <section class="section">
+            <div class="container2">
+                <div class="text"> <!-- F1-->
+                    <h2 class="h2">Falcon 9</h2>
+                    <p>O Falcon 9 é um foguete reutilizável de dois estágios projetado e fabricado pela SpaceX para o
+                        transporte confiável e seguro de pessoas e cargas para a órbita da Terra e além. O Falcon 9 é o
+                        primeiro foguete reutilizável de classe orbital do mundo. A reutilização permite que a SpaceX
+                        reflita as partes mais caras do foguete, o que, por sua vez, reduz o custo do acesso ao espaço.
+                    </p>
+                </div>
+
+                <div class="carrossel">
+                    <div class="containerJ">
+                        <img src="img/falcon.png">
+                        <img src="img/falcon2.jpg">
+                        <img src="img/falcon9.4.jpeg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container2">
+                <div class="text"> <!-- F2-->
+                    <h2 class="h2"> Falcon Heavy</h2>
+                    <p> O Falcon Heavy é composto por três núcleos de nove motores Falcon 9 reutilizáveis,
+                        cujos 27 motores Merlin juntos geram mais de 5 milhões de libras de empuxo na decolagem,
+                        o equivalente a aproximadamente dezoito aeronaves 747. Como um dos foguetes operacionais mais
+                        poderosos do mundo, o Falcon Heavy pode levantar quase 64 toneladas métricas (141.000 libras)
+                        para a órbita.</p>
+                </div>
+
+                <div class="carrossel">
+                    <div class="containerJ" id="imgj">
+                        <img src="img/falcon_hevy.jpg">
+                        <img src="img/heavy.sb.jpg">
+                        <img src="img/heavy.ft.jpg">
+                        <img src="img/heavy.4.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container2">
+                <div class="text"> <!-- F3-->
+                    <h2 class="h2">Dragon</h2>
+                    <p> A espaçonave Dragon é capaz de transportar até 7 passageiros de e para a órbita da Terra e além.
+                        É a única espaçonave voando atualmente capaz de devolver quantidades significativas de carga à
+                        Terra
+                        e é a primeira espaçonave privada a levar humanos à estação espacial.
+                        Em 2020, a SpaceX devolveu a capacidade da América de levar astronautas da NASA de e
+                        para a Estação Espacial Internacional em veículos americanos pela primeira vez desde 2011.
+                        Além de levar astronautas ao espaço para a NASA, a espaçonave Dragon da SpaceX também pode
+                        transportar
+                        astronautas comerciais para a órbita terrestre, a ISS ou além
+                    </p>
+                </div>
+
+                <div class="carrossel">
+                    <div class="containerJ" id="imgj">
+                        <img src="img/dragon2.jpg">
+                        <img src="img/dragon3.jpg">
+                        <img src="img/dragon4.jpg">
+                        <img src="img/dragon5.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="section">
+            <div class="container2">
+                <div class="text"> <!-- F4-->
+                    <h2 class="h2">Starship</h2>
+                    <p> A espaçonave Starship da SpaceX e o foguete Super Heavy -coletivamente referidos como Starship– 
+                        representam um sistema de transporte totalmente reutilizável projetado para transportar
+                        tripulação
+                        e carga para a órbita da Terra, a Lua, Marte e além. O Starship será o veículo de lançamento
+                        mais poderoso
+                        do mundo já desenvolvido, capaz de transportar até 150 toneladas métricas totalmente
+                        reutilizáveis e 250 toneladas métricas descartáveis.
+                    </p>
+                </div>
+
+                <div class="carrossel">
+                    <div class="containerJ" id="imgj">
+                        <img src="img/Starship.jpg">
+                        <img src="img/starship2.jpg">
+                        <img src="img/starship3.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div id="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Altura</th>
+                            <th>Diâmetro</th>
+                            <th>Massa</th>
+                            <th>Total de Lançamentos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Falcon 9</td>
+                            <td class="td-nome"> 70 metros</td>
+                            <td>3.7 metros</td>
+                            <td>549,054 Kg</td>
+                            <td>238</td>
+                        </tr>
+                        <tr>
+                            <td>falcon </td>
+                            <td class="td-nome">70 metros</td>
+                            <td>12.2 metros</td>
+                            <td>1,420,788 kg </td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Dragon</td>
+                            <td class="td-nome">8.1 metros</td>
+                            <td>4 metros</td>
+                            <td>6.000 kg </td>
+                            <td>41</td>
+                        </tr>
+                        <tr>
+                            <td>Starship</td>
+                            <td class="td-nome">120 metros</td>
+                            <td>9 metros</td>
+                            <td>100-150 t</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+        <footer class="footer">
+            <div class="containerF">
+                <div class="links">
+                    <a href="https://pt-br.facebook.com/" target="_blank"><i class="fa fa-facebook"> </i></a>
+                    <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"> </i> </a>
+                    <a href="https://github.com/" target="_blank"> <i class="fa fa-github"> </i> </a>
+                    <a href="https://br.linkedin.com/" target="_blank"> <i class="fa fa-linkedin"> </i> </a>
+                </div>
+                <p>Space Exploration Technologies</p>
+            </div>
+        </footer>
+
+    </main>
+</body>
+</html>
